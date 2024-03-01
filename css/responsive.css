@@ -1,0 +1,76 @@
+/* for mobile */
+
+@media screen and (max-width: 767px) {
+  .appointment-form form input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .website-ctn-area {
+    text-align: center;
+  }
+
+  .website-ctn-area p {
+    font-size: 16px;
+  }
+
+  .web-img-area img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .website-ctn-area h2::after {
+    margin: auto;
+  }
+
+  .span-design2::after {
+    margin: auto;
+  }
+  .desc p {
+    font-size: 16px;
+  }
+
+  .card {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .desc p {
+    font-size: 14px;
+  }
+}
+
+/* for mobile */
+
+/* for tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .appointment-form form input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .expart-top p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .desc p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    transition: 0.5s;
+    max-width: 370px;
+    width: 100%;
+  }
+
+  .card img {
+    max-width: 368px;
+    width: 100%;
+    height: 190px;
+  }
+}

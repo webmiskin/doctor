@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&family=Unna:ital,wght@0,700;1,400&display=swap");
+
+/*=====================================
+common css
+==============================*/
+
+body {
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* font-family: 'Dosis', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Unna', serif; */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*=====================================
+common css
+==============================*/
+
+/* =========header-area starts============= */
+
+/* banner-area */
+.banner-area img {
+  width: 100%;
+  height: auto;
+  border-top: 5px solid #232599;
+}
+
+/* =========header-area ends============= */
+
+/* online appointment-area */
+
+.appointment-area {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.appoint-title {
+  text-align: center;
+}
+
+.appoint-title h2 {
+  color: #2b9ffe;
+  margin-bottom: 20px;
+}
+
+.appoint-title h2::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #232599;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.appointment-form::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.appointment-form form input {
+  color: #fff;
+  background-color: #232599;
+  padding: 10px 15px;
+  border: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 220px;
+  float: left;
+}
+
+.navbar .logo {
+  width: 200px;
+}
+
+.navbar-nav a {
+  text-transform: capitalize;
+}
+
+/* our website area */
+.our-website-area {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+.website-ctn-area h6 {
+  color: #2b9ffe;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.website-ctn-area h2 {
+  text-transform: capitalize;
+  color: #222499;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.website-ctn-area h2::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #232599;
+  margin-top: 10px;
+}
+
+.website-ctn-area p {
+  color: #383838;
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+.website-ctn-area a {
+  text-decoration: none;
+}
+.website-ctn-area a button {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+  background-color: #232599;
+}
+
+.website-ctn-area a button:hover {
+  color: black;
+  background-color: aqua;
+}
+
+.span-design2::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #232599;
+  display: block;
+}
+
+.web-img-area img {
+  width: 100%;
+  height: auto;
+}
+
+.web-img-area {
+  margin-left: 50px;
+}
+
+/* expert-service-area  */
+
+.expert-service-area {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.expart-top {
+  text-align: center;
+}
+
+.expart-top h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #2b9ffe;
+}
+
+.expart-top h2 {
+  text-transform: capitalize;
+  font-size: 27px;
+  font-weight: 400;
+  color: #222499;
+  margin-bottom: 15px;
+}
+
+.span-design3::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #232599;
+  display: block;
+  margin: auto;
+}
+
+.expart-top p {
+  color: #737373;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.span-design4::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #9c9c9c;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+  transition: 0.5s;
+  max-width: 370px;
+  width: 100%;
+}
+
+.card img {
+  max-width: 368px;
+  width: 100%;
+  height: auto;
+}
+
+.card section {
+  width: 100%;
+  background-image: url("img/laser.png");
+  height: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 116, 232, 0.5);
+opacity: 0;
+}
+
+.card:hover{
+  box-shadow: 1px 1px 5px black;
+} 
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.desc {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.desc h3 {
+  font-size: 18px;
+  color: #2b9ffe;
+  margin-bottom: 15px;
+}
+.desc p {
+  margin-top: 15px;
+  color: #7f7f7f;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* view-area  */
+.view-area img {
+  width: 100%;
+  height: auto;
+}
+
+/* doctor-area */
+
+.doctor-area {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.doctor-area .card {
+  border: 2px solid #ddd;
+}
